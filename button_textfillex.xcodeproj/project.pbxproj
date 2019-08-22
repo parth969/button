@@ -14,6 +14,7 @@
 		03534132230E855800B12439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03534130230E855800B12439 /* LaunchScreen.storyboard */; };
 		0353413D230E855800B12439 /* button_textfillexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353413C230E855800B12439 /* button_textfillexTests.swift */; };
 		03534148230E855800B12439 /* button_textfillexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03534147230E855800B12439 /* button_textfillexUITests.swift */; };
+		03534156230E859D00B12439 /* Homeviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03534155230E859D00B12439 /* Homeviewcontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		03534143230E855800B12439 /* button_textfillexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = button_textfillexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03534147230E855800B12439 /* button_textfillexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_textfillexUITests.swift; sourceTree = "<group>"; };
 		03534149230E855800B12439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03534155230E859D00B12439 /* Homeviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeviewcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0353412E230E855800B12439 /* Assets.xcassets */,
 				03534130230E855800B12439 /* LaunchScreen.storyboard */,
 				03534133230E855800B12439 /* Info.plist */,
+				03534155230E859D00B12439 /* Homeviewcontroller.swift */,
 			);
 			path = button_textfillex;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				0353412A230E855800B12439 /* ViewController.swift in Sources */,
 				03534128230E855800B12439 /* AppDelegate.swift in Sources */,
+				03534156230E859D00B12439 /* Homeviewcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

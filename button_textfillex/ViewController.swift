@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //outlets
+    
+    @IBOutlet weak var txtemailid: UITextField!
+    
+    @IBOutlet weak var txtPassword: UITextField!
+    
+    @IBOutlet weak var txtConfirmPassword: UITextField!
+    
+    
+    @IBOutlet weak var lblmassage: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +32,30 @@ class ViewController: UIViewController {
     }
 
 
+    
+    @IBAction func BtnSignUpTouchUpInside(_ sender: Any) {
+        
+        let emailid = txtemailid.text
+        let password = txtPassword.text
+        let confirmpassword = txtConfirmPassword.text
+        
+        if txtPassword != txtConfirmPassword{
+            lblmassage.text = "Password not match!"
+        }
+        
+        
+    }
+    
+    
+    
+    @IBAction func setpasswordvisibility(_ sender: Any) {
+        
+        txtPassword.isSecureTextEntry = !(txtPassword.isSecureTextEntry)
+        txtConfirmPassword.isSecureTextEntry = !(txtConfirmPassword.isSecureTextEntry)
+    }
 }
+    
+
+
+
 
