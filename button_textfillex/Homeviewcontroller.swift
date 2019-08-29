@@ -9,7 +9,24 @@
 import UIKit
 
 class Homeviewcontroller: UIViewController {
-
+    
+    //outlet
+    
+    
+    @IBOutlet weak var txtemailid: UIView!
+    
+    
+    @IBOutlet weak var txtpassword: UITextField!
+    
+    
+    @IBOutlet weak var txtconfirmpassword: UITextField!
+    
+    
+    @IBOutlet weak var lblmassage: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +37,20 @@ class Homeviewcontroller: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
     /*
